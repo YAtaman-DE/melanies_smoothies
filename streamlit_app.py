@@ -10,7 +10,7 @@ import requests
 url = "https://my.smoothiefroot.com/api/fruit/watermelon"
 response = requests.get(url)
 
-st.text(response.text)
+st.text(response.json())
 
 
 # Write directly to the app.
