@@ -4,7 +4,7 @@ from snowflake.snowpark.functions import col
 
 # import requests
 
-url = "https://my.smoothiefroot.com/api/fruit/watermelon"
+# url = "https://my.smoothiefroot.com/api/fruit/watermelon"
 # smoothiefroot_response = requests.get(url)
 
 # st.text(smoothiefroot_response.text)
