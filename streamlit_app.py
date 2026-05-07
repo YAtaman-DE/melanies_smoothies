@@ -10,7 +10,8 @@ import requests
 url = "https://my.smoothiefroot.com/api/fruit/watermelon"
 response = requests.get(url)
 
-st.text(response.json())
+# st.text(response.json())
+sf_df = st.dataframe(data=response.json(), use_container_width=True)
 
 
 # Write directly to the app.
